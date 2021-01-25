@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SecretBot123.Core.Commands
 {
-    class Commands : ModuleBase
+    public class Commands : ModuleBase
     {
         [Command("help")]
         public async Task Help()
